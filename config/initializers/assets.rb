@@ -1,0 +1,2 @@
+Rails.application.config.assets.precompile += %w( outdated_browser/outdated_browser_alerta.js modernizr-1.6.min.js)
+Rails.application.config.assets.precompile += %w( outdated_browser/outdated_browser_alerta.css outdated_browser/enablejs.css outdated_browser/outdated_browser_index.css )

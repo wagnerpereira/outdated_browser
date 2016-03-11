@@ -1,0 +1,34 @@
+<%= javascript_enabled_html %>
+<%= stylesheet_link_tag "outdated_browser/outdated_browser_alerta" %>
+<%= javascript_include_tag "outdated_browser/outdated_browser_alerta" %>
+
+<% content_for :outdatedbrowser do %> 
+  <div id="outdated" class='browser'>
+    <h6>
+      <%= raw t('outdated_browser.outdated') %>
+    </h6>
+    <p>
+      <%= raw t('outdated_browser.update_suggestion') if params_action_outdated_browser_index? %>
+      <% unless params_action_outdated_browser_index? %>
+        <a id="btnUpdateBrowser" href="<%= outdated_browser_index_url %>">
+          <%= raw t('outdated_browser.update_browser') %>
+        </a>
+      <% end %>
+    </p>
+    <p class="last">
+      <a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a>
+    </p>
+  </div>
+
+  <script>
+    (function() {
+      outdatedBrowser({
+        bgColor: '#f25648',
+        color: '#ffffff',
+        lowerThan: 'transform',
+        languagePath: ''
+      })
+    })();
+  </script>
+<% end %>
+<%= yield :outdatedbrowser unless browser_e_homologado_pela_unimed? %>

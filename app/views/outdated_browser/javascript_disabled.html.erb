@@ -1,0 +1,180 @@
+<noscript>
+<%= stylesheet_link_tag "outdated_browser/enablejs" %>
+<div style="margin-top: 90px;">
+<div class="container">
+	<h1><%= I18n.t(:how_to_enable_javascript_in_your_browser, scope: [:outdated_browser]) %></h1>
+	<div class="callout callout-info  fade in javascript-info">
+		<%= I18n.t(:info, scope: [:outdated_browser]) %>
+	</div>
+	<div class="browsers">
+	  <a href="#ie_anchor" class="ie48" id="ieicon"><%= I18n.t(:ie, scope: [:outdated_browser, :browsers]) %></a>
+	  <a href="#firefox_anchor" class="firefox48" id="fficon"><%= I18n.t(:firefox, scope: [:outdated_browser, :browsers]) %></a>
+	  <a href="#chrome_anchor" class="chrome48" id="cicon"><%= I18n.t(:chrome, scope: [:outdated_browser, :browsers]) %></a>
+	  <a href="#opera" class="opera48" id="oicon"><%= I18n.t(:opera, scope: [:outdated_browser, :browsers]) %></a>
+	  <a href="#safari" class="safari48" id="sicon"><%= I18n.t(:safari, scope: [:outdated_browser, :browsers]) %></a>
+	</div>
+  <hr>
+  <span class="anchor" id="ie_anchor"></span>
+  <div id="pnlotherBrowsers">
+		<div id="pnlIE">
+	    <h3 id="ie">
+	      <span class="icon">&nbsp;</span><%= I18n.t(:ie, scope: [:outdated_browser, :browsers]) %>
+	    </h3>
+	    <ol>
+        <li>
+          <%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:three, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:four, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:five, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:six, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:seven, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+        <li>
+          <%= I18n.t(:eight, scope: [:outdated_browser, :step_by_step, :ie]) %>
+        </li>
+	    </ol>
+		</div>
+		<div id="pnlIElte8">
+	    <h5 id="ielte8">
+	      <span class="lt">&nbsp;</span><%= I18n.t(:ie9, scope: [:outdated_browser, :browsers]) %>
+	    </h5>
+	    <ol>
+        <li>
+          <%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:three, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:four, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:five, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:six, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:seven, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+        <li>
+          <%= I18n.t(:eight, scope: [:outdated_browser, :step_by_step, :ie9]) %>
+        </li>
+	    </ol>
+		</div>
+		<div id="pnlcurrentBrowser">
+			<span class="anchor" id="firefox_anchor"></span>
+			<div id="pnlFirefox">
+	      <h3 id="firefox">
+	        <span class="icon">&nbsp;</span><%= I18n.t(:firefox, scope: [:outdated_browser, :browsers]) %>
+	      </h3>
+	      <ol>
+	        <li>
+	        	<%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :firefox]) %>
+	        </li>
+	        <li>
+	          <%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :firefox]) %>
+	        </li>
+	        <li>
+	          <%= I18n.t(:three, scope: [:outdated_browser, :step_by_step, :firefox]) %>
+	        </li>
+	        <li>
+	         	<%= I18n.t(:four, scope: [:outdated_browser, :step_by_step, :firefox]) %>
+	        </li>
+	        <li>
+	          <%= I18n.t(:five, scope: [:outdated_browser, :step_by_step, :firefox]) %>
+	        </li>
+	      </ol>
+			</div>
+		</div>
+		<div id="pnlChromeNew">
+			<span class="anchor" id="chrome_anchor"></span>
+	    <h3 id="chrome">
+	      <span class="icon">&nbsp;</span><%= I18n.t(:chrome, scope: [:outdated_browser, :browsers]) %>
+	    </h3>
+	    <ol>
+        <li>
+          <%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+          <%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+          <%= I18n.t(:three, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+          <%= I18n.t(:four, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+          <%= I18n.t(:five, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+          <%= I18n.t(:six, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+        </li>
+        <li>
+	        <%= I18n.t(:seven, scope: [:outdated_browser, :step_by_step, :chrome]) %>
+	      </li>
+	    </ol>
+		</div>
+		<div id="pnlOpera">
+	    <h3 id="opera">
+	      <span class="icon">&nbsp;</span><%= I18n.t(:opera, scope: [:outdated_browser, :browsers]) %>
+	    </h3>
+	    <ul class="liplace">
+	    	<ol>
+		      <li>
+		      	<%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :opera]) %>
+		      </li>
+		      <li>
+		      	<%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :opera]) %>
+		       </li>
+		    </ol>
+	    </ul>
+		</div>
+		<div id="pnlSafari">
+	    <h3 id="safari">
+	      <span class="icon">&nbsp;</span><%= I18n.t(:safari, scope: [:outdated_browser, :browsers]) %>
+	    </h3>
+	    <ol>
+        <li>
+          <%= I18n.t(:one, scope: [:outdated_browser, :step_by_step, :safari]) %>
+        </li>
+        <li>
+          <%= I18n.t(:two, scope: [:outdated_browser, :step_by_step, :safari]) %>
+         </li>
+        <li>
+          <%= I18n.t(:three, scope: [:outdated_browser, :step_by_step, :safari]) %>
+         </li>
+        <li>
+	       	<%= I18n.t(:four, scope: [:outdated_browser, :step_by_step, :safari]) %>
+	      </li>
+	    </ol>
+		</div>
+	</div>
+<!-- </div> -->
+</div>
+</noscript>
+<script>
+	window.location.href = "<%= session[:my_previous_url] %>"
+	document.write('<div class="alert alert-success fade in" style="margin-top:60px;">\
+							      <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>\
+							      <strong><%= I18n.t(:browser_is_up_to_date) %></strong>\
+							    </div>'
+							  )
+</script>

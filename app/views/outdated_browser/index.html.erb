@@ -7,27 +7,27 @@
         <div id="main">
           <ul class="wrap" id="browserlist">
             <li id="chrome">
-              <a title="Google Chrome" href="http://www.google.com/chrome" target="_blank">
+              <a title="Google Chrome" href="<%= I18n.t(:url, scope: [:outdated_browser, :browsers, :chrome]) %>" target="_blank">
                 <div class="icon"></div>
-                <h2><%= I18n.t(:chrome, scope: [:outdated_browser, :browsers]) %></h2>
-                <p class="info">“Um rápido e novo navegador do Google. Experimente&nbsp;agora!”</p>
-                <p class="website">Visite o site para mais informações</p>
+                <h2><%= I18n.t(:name, scope: [:outdated_browser, :browsers, :chrome]) %></h2>
+                <p class="info"><%= I18n.t(:info, scope: [:outdated_browser, :browsers, :chrome]) %></p>
+                <p class="website"><%= I18n.t(:info_webiset, scope: [:outdated_browser, :browsers, :chrome]) %></p>
               </a>
             </li><!-- #chrome -->
             <li id="firefox">
-              <a title="Mozilla Firefox" href="http://www.firefox.com/" target="_blank">
+              <a title="Mozilla Firefox" href="<%= I18n.t(:url, scope: [:outdated_browser, :browsers, :firefox]) %>" target="_blank">
                 <div class="icon"></div>
-                <h2><%= I18n.t(:firefox, scope: [:outdated_browser, :browsers]) %></h2>
-                <p class="info">“Sua segurança online é a principal prioridade do Firefox. O Firefox é gratuito e feito para ajudá-lo a tirar o máximo proveito da&nbsp;web.”</p>
-                <p class="website">Visite o site para mais informações</p>
+                <h2><%= I18n.t(:name, scope: [:outdated_browser, :browsers, :firefox]) %></h2>
+                <p class="info"><%= I18n.t(:info, scope: [:outdated_browser, :browsers, :firefox]) %></p>
+                <p class="website"><%= I18n.t(:info_webiset, scope: [:outdated_browser, :browsers, :firefox]) %></p>
               </a>
             </li><!-- #firefox -->
             <li id="ie">
-              <a title="Microsoft Internet Explorer" href="http://windows.microsoft.com/ie" target="_blank">
+              <a title="Microsoft Internet Explorer" href="<%= I18n.t(:url, scope: [:outdated_browser, :browsers, :ie]) %>" target="_blank">
                 <div class="icon"></div>
-                <h2><%= I18n.t(:ie, scope: [:outdated_browser, :browsers]) %></h2>
-                <p class="info">“Projetado para ajudá-lo a assumir o controle de sua privacidade e navegar com confiança. Gratuito da Microsoft.”</p>
-                <p class="website">Visite o site para mais informações</p>
+                <h2><%= I18n.t(:name, scope: [:outdated_browser, :browsers, :ie]) %></h2>
+                <p class="info"><%= I18n.t(:info, scope: [:outdated_browser, :browsers, :ie]) %></p>
+                <p class="website"><%= I18n.t(:info_webiset, scope: [:outdated_browser, :browsers, :ie]) %></p>
               </a>
             </li><!-- #ie -->
           </ul><!-- #browserlist -->
@@ -39,7 +39,7 @@
   <div>
     <div class="alert alert-success fade in">
         <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        <strong>o seu navegar já esta atualizado.</strong>
+        <strong><%= I18n.t(:browser_is_up_to_date) %></strong>
     </div>
   </div>
   <script type="text/javascript">

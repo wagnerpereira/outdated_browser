@@ -1,8 +1,9 @@
 pt-BR:
   outdated_browser:
-    browser_is_up_to_date: 'O JavaScript do seu navegador já está habilitado'
+    browser_is_up_to_date: 'O seu navegador já esta atualizado.'
     how_to_enable_javascript_in_your_browser: 'Como habilitar o JavaScript no seu navegador'
     info: 'Atualmente quase todas as páginas da internet contém JavaScript, uma linguagem de programação que é executada no navegador do visitante. Ela torna as páginas funcionais para propósitos específicos, e se estiver desabilitada por alguma razão, o conteúdo ou funcionalidade da página pode se tornar limitado ou indisponível. Aqui você encontra instruções sobre como habilitar (ativar) o JavaScript nos cinco navegadores mais comumente usados.'
+    javascript_enable: 'O JavaScript do seu navegador já está habilitado'
     javascript_disabled: 'O JavaScript do seu navegador está desabilitado'
     javascript_disabled_button_text: 'Saiba como habilitá-lo'
     javascript_disabled_instruction: 'Siga a instruções para cada um dos navegadores abaixo'
@@ -10,12 +11,27 @@ pt-BR:
     update_browser: 'Atualize o seu browser agora'
     update_suggestion: 'Utilize a versão atualizada de um dos navegadores abaixo'
     browsers:
-      chrome: 'Google Chrome'
-      firefox: 'Mozilla Firefox'
-      ie: 'Internet Explorer'
-      ie9: 'Internet Explorer 9'
-      opera: 'Opera'
-      safari: 'Apple Safari'
+      chrome:
+        info: '“Um rápido e novo navegador do Google. Experimente agora!”'
+        info_website: 'Visite o site para mais informações'
+        name: 'Google Chrome'
+        url: 'http://www.google.com/chrome'
+      firefox:
+        info: '“Sua segurança online é a principal prioridade do Firefox. O Firefox é gratuito e feito para ajudá-lo a tirar o máximo proveito da web.”'
+        info_website: 'Visite o site para mais informações'
+        name: 'Mozilla Firefox'
+        url: 'http://www.firefox.com/'
+      ie:
+        info: '“Projetado para ajudá-lo a assumir o controle de sua privacidade e navegar com confiança. Gratuito da Microsoft.”'
+        info_website: 'Visite o site para mais informações'
+        name: 'Internet Explorer'
+        url: 'http://windows.microsoft.com/ie'
+      ie9:
+        name: 'Internet Explorer 9'
+      opera:
+        name: 'Opera'
+      safari:
+        name: 'Apple Safari'
     step_by_step:
       chrome:
         one: 'No menu do navegador clique em "Customização e controle Google Chrome" e selecione "Configurações".'

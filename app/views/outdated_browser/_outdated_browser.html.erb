@@ -31,4 +31,4 @@
     })();
   </script>
 <% end %>
-<%= yield :outdatedbrowser unless browser_e_homologado_pela_unimed? %>
+<%= yield :outdatedbrowser unless browser.modern? %>

@@ -1,8 +1,4 @@
  module OutdatedBrowserHelper
-	
-	def browser_e_homologado_pela_unimed?
-		browser.modern?
-	end
 
 	def params_controller_outdated_browser?
 		params[:controller] == "outdated_browser"

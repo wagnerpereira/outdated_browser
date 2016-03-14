@@ -22,7 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+#app/views/layouts/application.html.erb
+<body>
+	<%= render partial: "outdated_browser/outdated_browser" %>
+</body>
+```
 
 ## Development
 

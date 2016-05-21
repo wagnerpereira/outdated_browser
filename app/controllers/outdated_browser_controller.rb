@@ -1,6 +1,6 @@
 class OutdatedBrowserController < ApplicationController
 
-	layout "sign"
+	layout "outdated_browser"
 
 	before_action :my_previous_url
 

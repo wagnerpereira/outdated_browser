@@ -7,7 +7,7 @@ Detect outdated browsers and Javascript disabled.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'outdated_browser', '~> 0.2.3'
+gem 'outdated_browser', '~> 0.3.3'
 ```
 
 And then execute:

@@ -1,4 +1,4 @@
-<% if !browser.modern? %>
+<% unless browser.modern? %>
   <%= stylesheet_link_tag "outdated_browser/outdated_browser_index" %>
   <%= javascript_include_tag "outdated_browser/modernizr-1.6.min" %>
   <div id="body-wrap">
@@ -38,8 +38,8 @@
 <% else %>
   <div>
     <div class="alert alert-success fade in">
-        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        <strong><%= I18n.t(:browser_is_up_to_date) %></strong>
+      <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+      <strong><%= I18n.t(:browser_is_up_to_date) %></strong>
     </div>
   </div>
   <script type="text/javascript">

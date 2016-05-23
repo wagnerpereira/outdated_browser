@@ -27,6 +27,19 @@ Or install it yourself as:
 </body>
 ```
 
+### I18n
+* Avaliable only in Portuguese.
+
+Add English translation:
+
+```yaml
+	#config/locales/outdated_browser.en.yml
+	en:
+	  outdated_browser:
+	    browser_is_up_to_date: 'translate here'
+	    how_to_enable_javascript_in_your_browser: 'translate here'
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

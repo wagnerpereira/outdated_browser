@@ -2,6 +2,9 @@
 
 Detect outdated browsers and Javascript disabled.
 
+![alt tag](https://github.com/sergiojadir/outdated_browser/blob/develop/app/assets/images/outdated_browser/first.png)
+![alt tag](https://github.com/sergiojadir/outdated_browser/blob/develop/app/assets/images/outdated_browser/step-by-step.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:

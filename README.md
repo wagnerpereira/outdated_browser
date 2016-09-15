@@ -2,12 +2,15 @@
 
 Detect outdated browsers and Javascript disabled.
 
+![alt tag](https://github.com/sergiojadir/outdated_browser/blob/develop/app/assets/images/outdated_browser/first.png)
+![alt tag](https://github.com/sergiojadir/outdated_browser/blob/develop/app/assets/images/outdated_browser/step-by-step.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'outdated_browser', '~> 0.2.3'
+gem 'outdated_browser', '~> 0.3.3'
 ```
 
 And then execute:
@@ -25,6 +28,19 @@ Or install it yourself as:
 <body>
 	<%= render partial: "outdated_browser/outdated_browser" %>
 </body>
+```
+
+### I18n
+* Avaliable only in Portuguese.
+
+Add English translation:
+
+```yaml
+	#config/locales/outdated_browser.en.yml
+	en:
+	  outdated_browser:
+	    browser_is_up_to_date: 'translate here'
+	    how_to_enable_javascript_in_your_browser: 'translate here'
 ```
 
 ## Development

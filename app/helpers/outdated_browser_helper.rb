@@ -22,7 +22,7 @@
             <p style='color: rgb(255, 255, 255);'>
               #{raw I18n.t('outdated_browser.javascript_disabled_instruction') if params_action_javascript_enabled?}"+
           unless params_action_javascript_enabled?
-              "<a href='#{javascript_disabled_outdated_browser_index_url}' id='btnUpdateBrowser' style='color: rgb(255, 255, 255); background-color: rgb(242, 86, 72);'> #{I18n.t('outdated_browser.javascript_disabled_button_text')}</a>
+              "<a href='#{OUTDATED_BROWSER_ROUTES.javascript_disabled_outdated_browser_index_path}' id='btnUpdateBrowser' style='color: rgb(255, 255, 255); background-color: rgb(242, 86, 72);'> #{I18n.t('outdated_browser.javascript_disabled_button_text')}</a>
             </p></div>"
           else
             "</p></div>"

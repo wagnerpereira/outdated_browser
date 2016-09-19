@@ -10,7 +10,7 @@
     <p>
       <%= raw t('outdated_browser.update_suggestion') if params_action_outdated_browser_index? %>
       <% unless params_action_outdated_browser_index? %>
-        <a id="btnUpdateBrowser" href="<%= outdated_browser_index_url %>">
+        <a id="btnUpdateBrowser" href="<%= OUTDATED_BROWSER_ROUTES.outdated_browser_index_path %>">
           <%= raw t('outdated_browser.update_browser') %>
         </a>
       <% end %>

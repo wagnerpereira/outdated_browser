@@ -1,4 +1,4 @@
-class OutdatedBrowserController < ApplicationController
+class OutdatedBrowserController < ActionController::Base
 
 	layout "outdated_browser"
 
